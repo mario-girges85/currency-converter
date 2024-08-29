@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.chois-cont {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  left: 5px;
+  top: -3%;
+}
+
+select {
+  padding: 5px 40px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0 solid black;
+  background-color: chocolate;
+  color: antiquewhite;
+}
